@@ -1,0 +1,50 @@
+/* ************ GOOGLE FONTS ************  */
+@import url('https://fonts.googleapis.com/css2?family=Sora:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+/* ************ GENERAL STYLES ************  */
+
+:root {
+    --bg-color: #212121;
+    --bg-color-white: #fafafa;
+    --black-color: #212b34;
+    --light-color: #ffffff;
+} 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Sora', sans-serif;
+    height: 100%;
+    min-height: 100vh;
+    background: var(--bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+/* ************ CUSTOM CSS ************  */
+
+
+
+/* ************ RESPONSIVE ************  */
+
+@media (max-width: 768px) {
+    body {
+        padding: 1rem;
+    }
+    
+    img {
+        width: auto;
+        height: auto;
+    }
+}
